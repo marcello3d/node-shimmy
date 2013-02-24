@@ -1,0 +1,26 @@
+{
+    "name": "shimmy",
+    "version": "0.1.0",
+    "description": "Generates a shim for a given browser",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/marcello3d/node-shimmy.git"
+    },
+    "dependencies": {
+        "polyfill":"0.1.0",
+        "bs":"0.1.0"
+    },
+    "devDependencies": {
+        "mocha":"1.8.1",
+        "polyfill":"0.1.0",
+        "useragent": "2.0.1"
+    },
+    "keywords": [ "html", "html5", "shim", "es5", "es6", "compatibility" ],
+    "author": "Marcello Bastéa-Forte <marcello@cellosoft.com>",
+    "license": "zlib",
+    "readmeFilename": "Readme.md"
+}
